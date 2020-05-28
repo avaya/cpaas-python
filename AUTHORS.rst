@@ -1,4 +1,4 @@
 Author/Maintainer
 =================
 
-- Matija Bogdanovic <matija.bogdanovic@gmail.com> `@matijabogdanovic <https://github.com/matijabogdanovic>`_
+- Avaya CPaaS <cpaassupport@avaya.com> `@avaya <https://github.com/avaya>`_
