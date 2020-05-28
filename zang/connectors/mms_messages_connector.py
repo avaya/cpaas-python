@@ -14,7 +14,7 @@ from zang.domain.mms_message import MmsMessage
 class MmsMessagesConnector(BaseConnector):
     """
     Used for all forms of communication with the `MMS/Messages`
-    endpoint of the Zang REST API.
+    endpoint of the Avaya CPaaS REST API.
     .. seealso:: zang.connectors.connector_factory.ConnectorFactory
     """
 
@@ -36,7 +36,7 @@ class MmsMessagesConnector(BaseConnector):
             to be in any specific format.
         :param mediaUrl: URL of an image to be sent.
         :param body: Text of the MMS to be sent.
-        :param from_: Must be a Zang number associated with your account.
+        :param from_: Must be a Avaya CPaaS number associated with your account.
             The value does not have to be in any specific format.
         :param statusCallback: The URL that will be sent information about
             the MMS. Url length is limited to 200 characters.

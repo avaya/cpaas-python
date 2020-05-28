@@ -108,8 +108,8 @@ __all__ = [
 # meta
 
 __title__ = 'zang'
-__author__ = 'Zang'
-__copyright__ = 'Copyright 2017 Zang'
+__author__ = 'Avaya'
+__copyright__ = 'Copyright 2020 Avaya'
 __license__ = 'MIT'
 
 __version__ = '1.0.0'

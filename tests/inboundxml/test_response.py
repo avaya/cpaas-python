@@ -14,7 +14,7 @@ class TestResponse(unittest.TestCase):
     def test_init_add_element(self):
         number = '(555)555-5555'
         dial = Dial(number=number)
-        text = 'Hello from Zang!'
+        text = 'Hello from Avaya CPaaS!'
         say = Say(text)
         response = Response()
         response.addElement(dial)
@@ -25,7 +25,7 @@ class TestResponse(unittest.TestCase):
         assert response.xml == expected
 
     def test_init_remove_element_at_index(self):
-        text = 'Hello from Zang!'
+        text = 'Hello from Avaya CPaaS!'
         say = Say(text)
         response = Response()
         response.addElement(say)
@@ -38,7 +38,7 @@ class TestResponse(unittest.TestCase):
         assert response.xml == expected
 
     def test_remove_element_at_out_of_range_index(self):
-        text = 'Hello from Zang!'
+        text = 'Hello from Avaya CPaaS!'
         say = Say(text)
         response = Response()
         response.addElement(say)

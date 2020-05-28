@@ -16,7 +16,7 @@ from zang.domain.list.usages import Usages
 class UsagesConnector(BaseConnector):
     """
     Used for all forms of communication with the `Usages` endpoint of
-        the Zang REST API.
+        the Avaya CPaaS REST API.
     .. seealso:: zang.connectors.connector_factory.ConnectorFactory
     """
 

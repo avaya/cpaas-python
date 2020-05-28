@@ -5,7 +5,7 @@ zang.connectors.sip_domains_connector
 ~~~~~~~~~~~~
 
 Used for all forms of communication with the Sip Domains endpoint of the
-    Zang REST API.
+    Avaya CPaaS REST API.
 see ConnectorFactory
 """
 from zang.connectors.base_connector import BaseConnector
@@ -24,7 +24,7 @@ from zang.domain.list.ip_access_control_lists import IpAccessControlLists
 class SipDomainsConnector(BaseConnector):
     """
     Used for all forms of communication with the `SIP Domains` endpoint
-        of the Zang REST API.
+        of the Avaya CPaaS REST API.
     .. seealso:: zang.connectors.connector_factory.ConnectorFactory
     """
 

@@ -22,7 +22,7 @@ from zang.domain.list.bna_lookups import BnaLookups
 class CarrierServicesConnector(BaseConnector):
     """
     Used for all forms of communication with the `Lookups`
-    endpoint of the Zang REST API.
+    endpoint of the Avaya CPaaS REST API.
     .. seealso:: zang.connectors.connector_factory.ConnectorFactory
     """
 

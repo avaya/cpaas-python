@@ -15,7 +15,7 @@ from zang.domain.list.sms_messages import SmsMessages
 class SmsMessagesConnector(BaseConnector):
     """
     Used for all forms of communication with the `SMS/Messages`
-    endpoint of the Zang REST API.
+    endpoint of the Avaya CPaaS REST API.
     .. seealso:: zang.connectors.connector_factory.ConnectorFactory
     """
 

@@ -11,7 +11,7 @@ class TestGather(unittest.TestCase):
         assert Gather().xml == expected
 
     def test_init_add_element(self):
-        text = 'Hello from Zang!'
+        text = 'Hello from Avaya CPaaS!'
         say = Say(text)
         gather = Gather()
         gather.addElement(say)
@@ -19,7 +19,7 @@ class TestGather(unittest.TestCase):
         assert gather.xml == expected
 
     def test_init_remove_element_at_index(self):
-        text = 'Hello from Zang!'
+        text = 'Hello from Avaya CPaaS!'
         say = Say(text)
         gather = Gather()
         gather.addElement(say)
@@ -30,7 +30,7 @@ class TestGather(unittest.TestCase):
         assert gather.xml == expected
 
     def test_remove_element_at_out_of_range_index(self):
-        text = 'Hello from Zang!'
+        text = 'Hello from Avaya CPaaS!'
         say = Say(text)
         gather = Gather()
         gather.addElement(say)

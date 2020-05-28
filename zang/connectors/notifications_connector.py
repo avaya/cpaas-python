@@ -15,7 +15,7 @@ from zang.domain.list.notifications import Notifications
 class NotificationsConnector(BaseConnector):
     """
     Used for all forms of communication with the `Notifications`
-    endpoint of the Zang REST API.
+    endpoint of the Avaya CPaaS REST API.
     .. seealso:: zang.connectors.connector_factory.ConnectorFactory
     """
 

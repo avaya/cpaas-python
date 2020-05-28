@@ -1,4 +1,4 @@
-"""Provide the ZANG INBOUNDXML models and enums."""
+"""Provide the Avaya CPaaS INBOUNDXML models and enums."""
 
 from .elements.answer import Answer  # NOQA
 from .elements.conference import Conference  # NOQA
