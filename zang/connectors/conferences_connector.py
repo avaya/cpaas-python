@@ -19,7 +19,7 @@ from zang.domain.participant import Participant
 class ConferencesConnector(BaseConnector):
     """
     Used for all forms of communication with the `Conferences`
-    endpoint of the Zang REST API.
+    endpoint of the Avaya CPaaS REST API.
     .. seealso:: zang.connectors.connector_factory.ConnectorFactory
     """
 

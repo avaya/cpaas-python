@@ -16,7 +16,7 @@ from zang.domain.fraud_control_rule_elements import FraudControlRuleElements
 class FraudControlConnector(BaseConnector):
     """
     Used for all forms of communication with the `FraudControlConnector`
-    endpoint of the Zang REST API.
+    endpoint of the Avaya CPaaS REST API.
     .. seealso:: zang.connectors.connector_factory.ConnectorFactory
     """
 

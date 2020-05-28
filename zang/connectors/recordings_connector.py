@@ -16,7 +16,7 @@ from zang.domain.list.recordings import Recordings
 class RecordingsConnector(BaseConnector):
     """
     Used for all forms of communication with the `Recordings`
-    endpoint of the Zang REST API.
+    endpoint of the Avaya CPaaS REST API.
     .. seealso:: zang.connectors.connector_factory.ConnectorFactory
     """
 
@@ -87,7 +87,7 @@ class RecordingsConnector(BaseConnector):
             transcribeQuality=None,
             transcribeCallback=None,):
         """
-        Records a Zang call
+        Records a Avaya CPaaS call
 
         :param callSid: Call SID.
         :param record: Specifies if a call recording should start or end.

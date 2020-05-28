@@ -15,7 +15,7 @@ smsMessagesConnector = ConnectorFactory(configuration).smsMessagesConnector
 try:
     smsMessage = smsMessagesConnector.sendSmsMessage(
         to='(XXX) XXX-XXXX',
-        body='Hello from Zang!',
+        body='Hello from Avaya CPaaS!',
         from_='(XXX) XXX-XXXX')
     print(smsMessage)
 except ZangException as e:

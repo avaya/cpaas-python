@@ -4,8 +4,8 @@ from setuptools import find_packages, setup
 
 
 setup(name="zang",
-      author='Zang Inc.',
-      author_email='support@zang.io',
+      author='Avaya Inc.',
+      author_email='cpaassupport@avaya.com',
       classifiers=[
           'Development Status :: 4 - Beta',
           'Environment :: Console',
@@ -22,7 +22,7 @@ setup(name="zang",
           'Programming Language :: Python :: 3.6',
           'Topic :: Utilities'],
       description=('This Python pacakge is an open source tool built to '
-                   'simplify interaction with the Zang telephony platform.'),
+                   'simplify interaction with the Avaya CPaaS telephony platform.'),
       install_requires=['requests', 'python-dateutil'],
       extras_require={
           ":python_version<'3.4'": ['enum'],
@@ -30,6 +30,6 @@ setup(name="zang",
       keywords='zang api wrapper',
       license='MIT License',
       packages=find_packages(exclude=['tests', 'tests.*', 'docs']),
-      url='http://docs.zang.io',
+      url='http://docs.avayacloud.io',
       test_suite='tests',
       version="1.0.0")

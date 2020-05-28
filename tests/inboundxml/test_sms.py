@@ -7,7 +7,7 @@ from zang.domain.enums.http_method import HttpMethod
 class TestSms(unittest.TestCase):
 
     def setUp(self):
-        self.text = 'Hello from Zang'
+        self.text = 'Hello from Avaya CPaaS'
 
     def test_init_with_required_values(self):
         expected = '<Sms>' + self.text + '</Sms>'

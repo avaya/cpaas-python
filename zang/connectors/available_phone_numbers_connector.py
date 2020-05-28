@@ -16,7 +16,7 @@ from zang.domain.list.available_phone_numbers import AvailablePhoneNumbers
 class AvailablePhoneNumbersConnector(BaseConnector):
     """
     Used for all forms of communication with the `AvailablePhoneNumbers`
-    endpoint of the Zang REST API.
+    endpoint of the Avaya CPaaS REST API.
     .. seealso:: zang.connectors.connector_factory.ConnectorFactory
     """
 

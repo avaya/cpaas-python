@@ -16,7 +16,7 @@ from zang.domain.list.incoming_phone_numbers import IncomingPhoneNumbers
 class IncomingPhoneNumbersConnector(BaseConnector):
     """
     Used for all forms of communication with the `Incoming Phone Numbers`
-    endpoint of the Zang REST API.
+    endpoint of the Avaya CPaaS REST API.
     .. seealso:: zang.connectors.connector_factory.ConnectorFactory
     """
 

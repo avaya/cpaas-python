@@ -15,7 +15,7 @@ from zang.domain.account import Account
 class AccountsConnector(BaseConnector):
     """
     Used for all forms of communication with the `Application Clients`
-        endpoint of the Zang REST API.
+        endpoint of the Avaya CPaaS REST API.
     .. seealso:: zang.connectors.connector_factory.ConnectorFactory
     """
 

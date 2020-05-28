@@ -4,7 +4,7 @@
 zang.connectors.base_connector
 ~~~~~~~~~~~~~~~~~~~
 This module contains base connector class used for all forms of communication
-with the Zang REST API.
+with the Avaya CPaaS REST API.
 """
 
 

@@ -7,7 +7,7 @@ from zang.inboundxml.elements.enums.voice import Voice
 class TestSay(unittest.TestCase):
 
     def setUp(self):
-        self.text = 'Hello from Zang'
+        self.text = 'Hello from Avaya CPaaS'
 
     def test_init_with_required_values(self):
         expected = '<Say>' + self.text + '</Say>'

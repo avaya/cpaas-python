@@ -5,7 +5,7 @@ This python package is an open source tool built to simplify interaction with
 the `CPaaS <https://www.avaya.com/en/products/cloud/cpaas/>`_ telephony platform. Avaya CPaaS makes adding voice
 and SMS to applications fun and easy.
 
-For more information about Zang, please visit: 
+For more information about CPaaS, please visit: 
 `Avaya CPaaS <https://www.avaya.com/en/products/cloud/cpaas/>`_
 
 To read the official documentation, please visit: `CPaaS Docs <https://docs.avayacloud.com/aspx/docs>`_.
@@ -52,7 +52,7 @@ Send SMS Example
     try:
         smsMessage = smsMessagesConnector.sendSmsMessage(
             to='(XXX) XXX-XXXX',
-            body='Hello from Zang!',
+            body='Hello from Avaya CPaaS!',
             from_='(XXX) XXX-XXXX')
         print(smsMessage)
     except ZangException as ze:
@@ -159,7 +159,7 @@ For more information please visit the `CPaaS InboundXML documentation
     # enums
     from zang.inboundxml import Voice, Language
 
-    say = Say("Welcome to Zang!",
+    say = Say("Welcome to Avaya CPaaS!",
               language=Language.EN,
               voice=Voice.FEMALE,
               loop=3)

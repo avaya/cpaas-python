@@ -18,7 +18,7 @@ from zang.domain.list.credentials_lists import CredentialsLists
 class SipCredentialsConnector(BaseConnector):
     """
     Used for all forms of communication with the `SIP Credentials` endpoint
-        of the Zang REST API.
+        of the Avaya CPaaS REST API.
     .. seealso:: zang.connectors.connector_factory.ConnectorFactory
     """
 

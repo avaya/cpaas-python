@@ -19,7 +19,7 @@ from zang.domain.list.ip_addresses import IpAddresses
 class IpAccessControlListsConnector(BaseConnector):
     """
     Used for all forms of communication with the `IpAccessControlLists`
-    endpoint of the Zang REST API.
+    endpoint of the Avaya CPaaS REST API.
     .. seealso:: zang.connectors.connector_factory.ConnectorFactory
     """
 

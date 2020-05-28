@@ -15,7 +15,7 @@ from zang.domain.list.calls import Calls
 class CallsConnector(BaseConnector):
     """
     Used for all forms of communication with the `Calls`
-    endpoint of the Zang REST API.
+    endpoint of the Avaya CPaaS REST API.
     .. seealso:: zang.connectors.connector_factory.ConnectorFactory
     """
 

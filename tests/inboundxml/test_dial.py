@@ -25,7 +25,7 @@ class TestDial(unittest.TestCase):
         assert dial.xml == expected
 
     def test_init_remove_element_at_index(self):
-        text = 'Hello from Zang!'
+        text = 'Hello from Avaya CPaaS!'
         number = Number(text)
         dial = Dial()
         dial.addElement(number)
@@ -36,7 +36,7 @@ class TestDial(unittest.TestCase):
         assert dial.xml == expected
 
     def test_remove_element_at_out_of_range_index(self):
-        text = 'Hello from Zang!'
+        text = 'Hello from Avaya CPaaS!'
         number = Number(text)
         dial = Dial()
         dial.addElement(number)

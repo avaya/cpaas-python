@@ -22,12 +22,12 @@ class TestMmsMessages(unittest.TestCase):
             to='+123456',
             mediaUrl="https://media.giphy.com/media/zZJzLrxmx5ZFS/giphy.gif", 
             from_='+654321', 
-            body='This is MMS sent from Zang',
+            body='This is MMS sent from Avaya CPaaS',
             statusCallback='callback.url',
             statusCallbackMethod=HttpMethod.GET.value)
         self.checkMessage(mmsMessage)
 
     def checkMessage(self, mmsMessage):
-        assert mmsMessage.body == 'This is MMS sent from Zang'
+        assert mmsMessage.body == 'This is MMS sent from Avaya CPaaS'
         assert mmsMessage.status == MmsMessageStatus.QUEUED
         assert mmsMessage.direction == MmsDirection.OUTBOUND_API
