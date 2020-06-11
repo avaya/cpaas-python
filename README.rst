@@ -1,4 +1,4 @@
-cpaas-python
+cpaas-python2
 ==========
 
 This python package is an open source tool built to simplify interaction with
