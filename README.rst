@@ -18,8 +18,8 @@ Clone the repo, and install via ``pip``:
 
 .. code-block:: bash
 
-    $ git clone git@github.com:avaya/cpaas-python.git
-    $ cd cpaas-python
+    $ git clone git@github.com:avaya/cpaas-python2.git
+    $ cd cpaas-python2
     $ pip install -e .
 
 .. code-block:: bash
