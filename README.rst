@@ -1,4 +1,4 @@
-cpaas-python2
+cpaas-python
 ==========
 
 This python package is an open source tool built to simplify interaction with
@@ -18,8 +18,8 @@ Clone the repo, and install via ``pip``:
 
 .. code-block:: bash
 
-    $ git clone git@github.com:avaya/cpaas-python2.git
-    $ cd cpaas-python2
+    $ git clone git@github.com:avaya/cpaas-python.git
+    $ cd cpaas-python
     $ pip install -e .
 
 .. code-block:: bash
@@ -54,7 +54,8 @@ Send SMS Example
             to='(XXX) XXX-XXXX',
             body='Hello from Avaya CPaaS!',
             from_='(XXX) XXX-XXXX')
-        print(smsMessage)
+        # This prints the SID of the SMS
+        print(smsMessage.sid)
     except ZangException as ze:
         print(ze)
         
