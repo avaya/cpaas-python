@@ -115,7 +115,7 @@ class Domain(BaseResource):
 
     @property
     def ipAccessControlListMappings(self):
-        """URI for IP access controll management."""
+        """URI for IP access control management."""
         return self._ip_access_control_list_mappings
 
     @property
